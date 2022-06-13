@@ -5,12 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "micromark": "^3.0.10",
-    "micromark-extension-gfm-table": "^1.0.5"
+    "micromark": "3.0.10",
+    "micromark-extension-gfm-table": "1.0.5"
   }
 }
